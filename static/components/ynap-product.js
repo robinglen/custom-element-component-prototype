@@ -2,18 +2,18 @@ class ynapProduct extends HTMLElement {
 
   constructor() {
     super();
-    this.element = this.getElementsByTagName('img')[0];
+    this.img = this.getElementsByTagName('img')[0];
 
     this.addEventListener("mouseover", this._showSecondaryImage);
     this.addEventListener("mouseout", this._showPrimaryImage);
   }
 
   _showPrimaryImage() {
-    this.element.src = this.element.dataset.primaryImage;
+    this.img.src = this.img.dataset.primaryImage;
   }
 
   _showSecondaryImage() {
-    this.element.src = this.element.dataset.secondaryImage;
+    this.img.src = this.img.dataset.secondaryImage;
   }
 
   connectedCallback() {
