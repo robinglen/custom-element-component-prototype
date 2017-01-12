@@ -2,7 +2,6 @@ class ynapProduct extends HTMLElement {
 
   constructor() {
     super();
-    this.msg = 'Hello, World!';
 
     this.addEventListener("mouseover", this._showSecondaryImage);
     this.addEventListener("mouseout", this._showPrimaryImage);
