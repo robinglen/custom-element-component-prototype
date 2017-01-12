@@ -1,0 +1,14 @@
+ynap-product {
+  display: block;
+  width: 270px
+}
+ynap-product img {
+  width: 180px;
+  height: 270px;
+  background: #CCCCCC
+}
+ynap-product p.product__designer {
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+}
