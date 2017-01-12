@@ -9,7 +9,7 @@ class ynapProduct extends HTMLElement {
   }
 
   _showPrimaryImage() {
-    this.element.src  = this.element.dataset.primaryImage;
+    this.element.src = this.element.dataset.primaryImage;
   }
 
   _showSecondaryImage() {
