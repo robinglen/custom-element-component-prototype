@@ -9,4 +9,5 @@ Using HTML imports and custom elements.
 ```bash
 cd static
 python -m SimpleHTTPServer
+http://localhost:8000/
 ```
